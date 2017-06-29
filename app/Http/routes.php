@@ -11,10 +11,13 @@
 |
 */
 
+
+Route::auth();
+//首页入口
 Route::get('/', function () {
     return redirect('/home');
 });
-
-Route::auth();
-
 Route::get('/home', 'HomeController@index');
+
+//对职位进行操作
+Route::resource('job','JobController');

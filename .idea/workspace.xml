@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5992cd78-b9cb-44e8-85ed-2039b9e39a05" name="默认的" comment="" />
+    <list default="true" id="5992cd78-b9cb-44e8-85ed-2039b9e39a05" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/job/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+    </list>
     <ignored path="hunting.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,17 +28,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <file leaf-file-name="JobController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JobController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20544554">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
+            <state vertical-scroll-proportion="0.75">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#40#52#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,9 +55,14 @@
         <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php" />
         <option value="$PROJECT_DIR$/app/Person.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071759_create_interviews_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/JobRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WorkController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/job/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/JobController.php" />
       </list>
     </option>
   </component>
@@ -62,12 +78,15 @@
       </GulpfileState>
     </gulpfiles>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="24" />
-    <option name="width" value="1547" />
-    <option name="height" value="976" />
+    <option name="x" value="-43" />
+    <option name="y" value="29" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -82,7 +101,7 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="2" id="添加" />
     <ConfirmationsSetting value="0" id="移除" />
   </component>
   <component name="ProjectView">
@@ -100,8 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,6 +168,28 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -166,15 +205,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/wamp64/www/hunting/resources/views/home.blade.php&#10;home&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Controllers/HomeController.php&#10;rou&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;ho&#9;null&#9;null&#10;rout&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;create_i&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071759_create_interviews_table.php&#10;create_pe&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071731_create_people_table.php&#10;data&#9;FILE&#9;file://D:/wamp64/www/hunting/config/database.php&#10;env&#9;FILE&#9;file://D:/wamp64/www/hunting/.env" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Middleware/VerifyCsrfToken.php&#10;ver&#9;null&#9;null&#10;rout&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;rou&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;jobre&#9;null&#9;null&#10;jobco&#9;null&#9;null&#10;create&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071702_create_jobs_table.php&#10;home&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Controllers/HomeController.php&#10;ho&#9;null&#9;null&#10;create_i&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071759_create_interviews_table.php&#10;create_pe&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071731_create_people_table.php&#10;data&#9;FILE&#9;file://D:/wamp64/www/hunting/config/database.php&#10;env&#9;FILE&#9;file://D:/wamp64/www/hunting/.env" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -190,29 +302,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="24" width="1547" height="976" extended-state="0" />
-    <editor active="true" />
+    <frame x="-43" y="29" width="1936" height="1096" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19352664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15705128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2033368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -222,11 +343,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34606206">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -234,20 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85643566">
           <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <marker date="1498634067999" expanded="true" signature="15:3932" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="23:442" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="486:922" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="981:1629" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="1655:2746" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="1678:1829" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="1853:2320" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="2344:2738" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="2756:3189" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="3234:3653" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="3673:3928" placeholder="..." />
-            <marker date="1498634067999" expanded="true" signature="3726:3920" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -255,13 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498633757090" expanded="true" signature="114:448" placeholder="{...}" />
-            <marker date="1498633757090" expanded="true" signature="124:203" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1498633757090" expanded="true" signature="233:275" placeholder="..." />
-            <marker date="1498633757090" expanded="true" signature="286:373" placeholder=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1498633757090" expanded="true" signature="401:444" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -269,16 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498633757104" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1498633757104" expanded="true" signature="136:698" placeholder="{...}" />
-            <marker date="1498633757104" expanded="true" signature="146:206" placeholder=" Run the migrations. ..." />
-            <marker date="1498633757104" expanded="true" signature="233:551" placeholder="{...}" />
-            <marker date="1498633757104" expanded="true" signature="263:543" placeholder="..." />
-            <marker date="1498633757104" expanded="true" signature="301:542" placeholder="..." />
-            <marker date="1498633757104" expanded="true" signature="560:624" placeholder=" Reverse the migrations. ..." />
-            <marker date="1498633757104" expanded="true" signature="653:696" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,16 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498633757105" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1498633757105" expanded="true" signature="145:632" placeholder="{...}" />
-            <marker date="1498633757105" expanded="true" signature="155:215" placeholder=" Run the migrations. ..." />
-            <marker date="1498633757105" expanded="true" signature="242:475" placeholder="{...}" />
-            <marker date="1498633757105" expanded="true" signature="272:467" placeholder="..." />
-            <marker date="1498633757105" expanded="true" signature="320:466" placeholder="..." />
-            <marker date="1498633757105" expanded="true" signature="484:548" placeholder=" Reverse the migrations. ..." />
-            <marker date="1498633757105" expanded="true" signature="577:630" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -303,9 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3589109">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <marker date="1498637620929" expanded="true" signature="87:201" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -313,9 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28712872">
           <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-          <folding>
-            <marker date="1498637620953" expanded="true" signature="90:189" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -323,16 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5977723">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <marker date="1498637620932" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1498637620932" expanded="true" signature="137:994" placeholder="{...}" />
-            <marker date="1498637620932" expanded="true" signature="147:207" placeholder=" Run the migrations. ..." />
-            <marker date="1498637620932" expanded="true" signature="234:846" placeholder="{...}" />
-            <marker date="1498637620932" expanded="true" signature="264:838" placeholder="..." />
-            <marker date="1498637620932" expanded="true" signature="303:837" placeholder="..." />
-            <marker date="1498637620932" expanded="true" signature="855:919" placeholder=" Reverse the migrations. ..." />
-            <marker date="1498637620932" expanded="true" signature="948:992" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,29 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3589109">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <marker date="1498633757103" expanded="false" signature="9:392" placeholder="..." />
-            <marker date="1498633757103" expanded="true" signature="413:647" placeholder="..." />
-            <marker date="1498633757103" expanded="true" signature="465:646" placeholder="..." />
-            <marker date="1498633757103" expanded="true" signature="478:643" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_06_28_071702_create_jobs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.644802">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <marker date="1498636213659" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1498636213659" expanded="true" signature="135:1019" placeholder="{...}" />
-            <marker date="1498636213659" expanded="true" signature="145:205" placeholder=" Run the migrations. ..." />
-            <marker date="1498636213659" expanded="true" signature="232:873" placeholder="{...}" />
-            <marker date="1498636213659" expanded="true" signature="262:865" placeholder="..." />
-            <marker date="1498636213659" expanded="true" signature="299:864" placeholder="..." />
-            <marker date="1498636213659" expanded="true" signature="882:946" placeholder=" Reverse the migrations. ..." />
-            <marker date="1498636213659" expanded="true" signature="975:1017" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,35 +417,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31311882">
           <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_06_28_071702_create_jobs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5614224">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0625">
+          <caret line="2" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/JobRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9310345">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
-            <marker date="1498638581798" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1498638581798" expanded="true" signature="141:1132" placeholder="{...}" />
-            <marker date="1498638581798" expanded="true" signature="151:211" placeholder=" Run the migrations. ..." />
-            <marker date="1498638581798" expanded="true" signature="238:980" placeholder="{...}" />
-            <marker date="1498638581798" expanded="true" signature="268:972" placeholder="..." />
-            <marker date="1498638581798" expanded="true" signature="311:971" placeholder="..." />
-            <marker date="1498638581798" expanded="true" signature="989:1053" placeholder=" Reverse the migrations. ..." />
-            <marker date="1498638581798" expanded="true" signature="1082:1130" placeholder="{...}" />
+            <marker date="1498721663386" expanded="true" signature="101:702" placeholder="{...}" />
+            <marker date="1498721663386" expanded="true" signature="111:209" placeholder=" Determine if the user is authorized to make this request. ..." />
+            <marker date="1498721663386" expanded="true" signature="243:276" placeholder="{...}" />
+            <marker date="1498721663386" expanded="true" signature="285:378" placeholder=" Get the validation rules that apply to the request. ..." />
+            <marker date="1498721663386" expanded="true" signature="408:700" placeholder="{...}" />
+            <marker date="1498721663386" expanded="true" signature="431:692" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17945544">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4375">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <marker date="1498639047361" expanded="false" signature="9:390" placeholder="..." />
-            <marker date="1498639047361" expanded="true" signature="405:455" placeholder="..." />
-            <marker date="1498639047361" expanded="true" signature="423:454" placeholder="..." />
+            <marker date="1498726789665" expanded="true" signature="157:300" placeholder="{...}" />
+            <marker date="1498726789665" expanded="true" signature="167:262" placeholder=" The URIs that should be excluded from CSRF verification. ..." />
+            <marker date="1498726789665" expanded="true" signature="290:296" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7141089">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.26831895">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <marker date="1498640980759" expanded="false" signature="44:104" placeholder="..." />
             <marker date="1498640980759" expanded="true" signature="145:531" placeholder="{...}" />
@@ -410,11 +476,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/bootstrap/cache/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20544554">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498727201703" expanded="true" signature="20:10627" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="48:1487" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="1513:2239" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="2268:9691" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="9716:10624" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="9789:9794" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="9854:9859" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="9923:9928" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10017:10022" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10087:10092" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10154:10159" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10229:10234" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10298:10303" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10367:10372" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10454:10459" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10535:10540" placeholder="..." />
+            <marker date="1498727201703" expanded="true" signature="10614:10619" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40625">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <marker date="1498727412870" expanded="false" signature="9:390" placeholder="..." />
+            <marker date="1498727412870" expanded="true" signature="428:478" placeholder="..." />
+            <marker date="1498727412870" expanded="true" signature="446:477" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/job/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06458797">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <marker date="1498727901036" expanded="true" signature="44:1318" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="71:1304" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="94:1293" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="146:1281" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="230:1268" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="280:399" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="428:545" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="574:697" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="726:849" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="878:993" placeholder="..." />
+            <marker date="1498727901036" expanded="true" signature="1022:1169" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JobController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
