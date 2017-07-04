@@ -17,12 +17,50 @@
                      <li>学历要求： {{ $job->degree }}</li>
                  </ul>
                  <h3>职位描述：</h3>
-
-                 <p></p>
                  <ul>
                      <li>所属部门： {{ $job->department }}</li>
                      <li>岗位要求： {{ $job->description }}</li>
                  </ul>
+                 <hr>
+                 {{--应聘者列表--}}
+                 <h3>应聘者列表：</h3>
+                 <table class="table table-bordered table-hover table-responsive">
+                     <thead>
+                     <tr>
+                         <th>姓名</th>
+                         <th>性别</th>
+                         <th>学历</th>
+                         <th>工作经验</th>
+                         <th>邮箱</th>
+                         <th>手机</th>
+                         <th>操作</th>
+                     </tr>
+                     </thead>
+                     <tbody>
+                     @foreach( $job->people as $person )
+                         <tr>
+                             <td>{{ $person->name }}</td>
+                             <td>{{ $person->sex }}</td>
+                             <td>{{ $person->degree }}</td>
+                             <td>{{ $person->experience }}</td>
+                             <td>{{ $person->email }}</td>
+                             <td>{{ $person->telephone }}</td>
+                             <td>
+                                 <a href="" class="btn btn-sm btn-success">邀请面试</a>
+                                 <a href="/person/{{ $person->id }}" class="btn btn-sm btn-info">查看详情</a>
+                                 {{--<a href="" class="btn btn-sm btn-danger">遗憾放弃</a>--}}
+                                 {{--按钮组--}}
+                                 {{--<div class="btn-group btn-group-sm">--}}
+                                     {{--<button class="btn btn-success" type="button">邀请面试</button>--}}
+                                     {{--<button class="btn btn-info" type="button">查看详情</button>--}}
+                                 {{--</div>--}}
+                             </td>
+                         </tr>
+                     @endforeach
+                     </tbody>
+                 </table>
+
+
              </div><!-- /.blog-post -->
 
             {{--分页--}}
@@ -51,7 +89,7 @@
              <div class="sidebar-module">
                  <h4>Elsewhere</h4>
                  <ol class="list-unstyled">
-                     <li><a href="#" class="btn btn-warning">新增应聘者</a></li>
+                     <li><a href="/interviewee/add/{{ $job->id }}" class="btn btn-warning">新增应聘者</a></li>
                  </ol>
              </div>
          </div><!-- /.blog-sidebar -->

@@ -21,3 +21,8 @@ Route::get('/home', 'HomeController@index');
 
 //对职位进行操作
 Route::resource('job','JobController');
+
+//对应聘者进行操作
+//Route::resource('interviewee','IntervieweeController');
+Route::get('/interviewee/add/{id}','IntervieweeController@add');
+Route::resource('person','PersonController');
