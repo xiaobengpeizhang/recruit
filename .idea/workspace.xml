@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5992cd78-b9cb-44e8-85ed-2039b9e39a05" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/job/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/job/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/job/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/JobController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/JobController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Interview.php" afterPath="$PROJECT_DIR$/app/Interview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Job.php" afterPath="$PROJECT_DIR$/app/Job.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Person.php" afterPath="$PROJECT_DIR$/app/Person.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
     </list>
     <ignored path="hunting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,13 +33,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JobController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JobController.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/job/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.68318963">
+              <caret line="75" column="86" selection-start-line="75" selection-start-column="86" selection-end-line="75" selection-end-column="86" />
               <folding>
-                <element signature="e#40#52#0#PHP" expanded="true" />
+                <element signature="e#3323#3347#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,10 +55,6 @@
       <list>
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071702_create_jobs_table.php" />
-        <option value="$PROJECT_DIR$/app/Job.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php" />
-        <option value="$PROJECT_DIR$/app/Person.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071759_create_interviews_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
@@ -62,7 +63,18 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/WorkController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/job/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Person.php" />
+        <option value="$PROJECT_DIR$/app/Interview.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/app/Job.php" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/resources/views/job/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/JobController.php" />
+        <option value="$PROJECT_DIR$/resources/views/job/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071702_create_jobs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php" />
       </list>
     </option>
   </component>
@@ -83,8 +95,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-43" />
-    <option name="y" value="29" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -173,6 +185,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="job" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -201,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,48 +249,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hunting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hunting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Middleware/VerifyCsrfToken.php&#10;ver&#9;null&#9;null&#10;rout&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;rou&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;jobre&#9;null&#9;null&#10;jobco&#9;null&#9;null&#10;create&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071702_create_jobs_table.php&#10;home&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Controllers/HomeController.php&#10;ho&#9;null&#9;null&#10;create_i&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071759_create_interviews_table.php&#10;create_pe&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071731_create_people_table.php&#10;data&#9;FILE&#9;file://D:/wamp64/www/hunting/config/database.php&#10;env&#9;FILE&#9;file://D:/wamp64/www/hunting/.env" />
+    <property name="SearchEverywhereHistoryKey" value="create&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071731_create_people_table.php&#10;job&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Job.php&#10;crea&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071702_create_jobs_table.php&#10;con&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Controllers/JobController.php&#10;ver&#9;null&#9;null&#10;rout&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;rou&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/routes.php&#10;jobre&#9;null&#9;null&#10;jobco&#9;null&#9;null&#10;home&#9;FILE&#9;file://D:/wamp64/www/hunting/app/Http/Controllers/HomeController.php&#10;ho&#9;null&#9;null&#10;create_i&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071759_create_interviews_table.php&#10;create_pe&#9;FILE&#9;file://D:/wamp64/www/hunting/database/migrations/2017_06_28_071731_create_people_table.php&#10;data&#9;FILE&#9;file://D:/wamp64/www/hunting/config/database.php&#10;env&#9;FILE&#9;file://D:/wamp64/www/hunting/.env" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\hunting\public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -302,11 +319,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-43" y="29" width="1936" height="1096" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15705128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16025642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -314,17 +331,17 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2033368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -343,6 +360,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/job/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding>
+            <element signature="e#3323#3347#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JobController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -385,27 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3589109">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28712872">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5977723">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3589109">
@@ -420,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_06_28_071702_create_jobs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5614224">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0625">
@@ -438,14 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9310345">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <marker date="1498721663386" expanded="true" signature="101:702" placeholder="{...}" />
-            <marker date="1498721663386" expanded="true" signature="111:209" placeholder=" Determine if the user is authorized to make this request. ..." />
-            <marker date="1498721663386" expanded="true" signature="243:276" placeholder="{...}" />
-            <marker date="1498721663386" expanded="true" signature="285:378" placeholder=" Get the validation rules that apply to the request. ..." />
-            <marker date="1498721663386" expanded="true" signature="408:700" placeholder="{...}" />
-            <marker date="1498721663386" expanded="true" signature="431:692" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,11 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4375">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <marker date="1498726789665" expanded="true" signature="157:300" placeholder="{...}" />
-            <marker date="1498726789665" expanded="true" signature="167:262" placeholder=" The URIs that should be excluded from CSRF verification. ..." />
-            <marker date="1498726789665" expanded="true" signature="290:296" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,14 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26831895">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <marker date="1498640980759" expanded="false" signature="44:104" placeholder="..." />
-            <marker date="1498640980759" expanded="true" signature="145:531" placeholder="{...}" />
-            <marker date="1498640980759" expanded="true" signature="155:229" placeholder=" Create a new controller instance. ..." />
-            <marker date="1498640980759" expanded="true" signature="265:312" placeholder="{...}" />
-            <marker date="1498640980759" expanded="true" signature="321:414" placeholder=" Show the application dashboard. ..." />
-            <marker date="1498640980759" expanded="true" signature="444:529" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,25 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498727201703" expanded="true" signature="20:10627" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="48:1487" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="1513:2239" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="2268:9691" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="9716:10624" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="9789:9794" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="9854:9859" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="9923:9928" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10017:10022" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10087:10092" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10154:10159" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10229:10234" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10298:10303" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10367:10372" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10454:10459" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10535:10540" placeholder="..." />
-            <marker date="1498727201703" expanded="true" signature="10614:10619" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,40 +479,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40625">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <marker date="1498727412870" expanded="false" signature="9:390" placeholder="..." />
-            <marker date="1498727412870" expanded="true" signature="428:478" placeholder="..." />
-            <marker date="1498727412870" expanded="true" signature="446:477" placeholder="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Interview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6875">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4375">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/job/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06458797">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <marker date="1498727901036" expanded="true" signature="44:1318" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="71:1304" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="94:1293" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="146:1281" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="230:1268" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="280:399" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="428:545" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="574:697" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="726:849" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="878:993" placeholder="..." />
-            <marker date="1498727901036" expanded="true" signature="1022:1169" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.34375">
+          <caret line="14" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/job/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9375">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JobController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.71875">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
-            <element signature="e#40#52#0#PHP" expanded="true" />
+            <marker date="1499128530677" expanded="true" signature="31:3605" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="38:886" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="909:3597" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="967:2893" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="999:2882" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="1039:1632" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="1214:1460" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="1564:1613" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="1709:2867" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="1798:1887" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="1991:2848" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="2305:2799" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="2429:2547" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="2615:2769" placeholder="..." />
+            <marker date="1499128530677" expanded="true" signature="2946:3079" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_06_28_071702_create_jobs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1499128997762" expanded="false" signature="11:94" placeholder="..." />
+            <marker date="1499128997762" expanded="true" signature="135:1019" placeholder="{...}" />
+            <marker date="1499128997762" expanded="true" signature="145:205" placeholder=" Run the migrations. ..." />
+            <marker date="1499128997762" expanded="true" signature="232:873" placeholder="{...}" />
+            <marker date="1499128997762" expanded="true" signature="262:865" placeholder="..." />
+            <marker date="1499128997762" expanded="true" signature="299:864" placeholder="..." />
+            <marker date="1499128997762" expanded="true" signature="882:946" placeholder=" Reverse the migrations. ..." />
+            <marker date="1499128997762" expanded="true" signature="975:1017" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_06_28_071731_create_people_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6174569">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <marker date="1499129139547" expanded="false" signature="11:94" placeholder="..." />
+            <marker date="1499129139547" expanded="true" signature="137:982" placeholder="{...}" />
+            <marker date="1499129139547" expanded="true" signature="147:207" placeholder=" Run the migrations. ..." />
+            <marker date="1499129139547" expanded="true" signature="234:834" placeholder="{...}" />
+            <marker date="1499129139547" expanded="true" signature="264:826" placeholder="..." />
+            <marker date="1499129139547" expanded="true" signature="303:825" placeholder="..." />
+            <marker date="1499129139547" expanded="true" signature="843:907" placeholder=" Reverse the migrations. ..." />
+            <marker date="1499129139547" expanded="true" signature="936:980" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/job/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68318963">
+          <caret line="75" column="86" selection-start-line="75" selection-start-column="86" selection-end-line="75" selection-end-column="86" />
+          <folding>
+            <element signature="e#3323#3347#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
