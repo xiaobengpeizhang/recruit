@@ -15,7 +15,7 @@
                 <h3>{{ $job->position }}  </h3>
                 <p>所属部门：{{ $job->department }} | 需求人数：{{ $job->number }}</p>
                 {{--<p>学历要求：{{ $job->degree }} | 工作经验：{{ $job->experience }}</p>--}}
-                <p>{!! mb_substr($job->description,0,50)  !!}...... </p>
+                <p>{!! mb_substr($job->description,0,40)  !!}...... </p>
                 <p>
                     <a class="btn btn-success" href="/job/{{$job->id}}">查看详情 »</a>
                 </p>

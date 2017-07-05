@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('css')
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-table.css') }}">
+@endsection
+
 @section('content')
  <div class="container">
      <div class="row">
@@ -24,15 +28,22 @@
                  <hr>
                  {{--应聘者列表--}}
                  <h3>应聘者列表：</h3>
-                 <table class="table table-bordered table-hover table-responsive">
+                 <table  data-toggle="table"
+                         {{--data-search="true"--}}
+                         {{--data-show-refresh="true"--}}
+                         {{--data-show-toggle="true"--}}
+                         {{--data-show-columns="true"--}}
+                         data-pagination="true"
+                        style="font-size: small"
+                 >
                      <thead>
                      <tr>
-                         <th>姓名</th>
-                         <th>性别</th>
-                         <th>学历</th>
-                         <th>工作经验</th>
-                         <th>邮箱</th>
-                         <th>手机</th>
+                         <th data-sortable="true">姓名</th>
+                         <th data-sortable="true">性别</th>
+                         <th data-sortable="true">学历</th>
+                         <th data-sortable="true">工作经验</th>
+                         <th data-sortable="true">邮箱</th>
+                         <th data-sortable="true">手机</th>
                          <th>操作</th>
                      </tr>
                      </thead>
@@ -46,7 +57,7 @@
                              <td>{{ $person->email }}</td>
                              <td>{{ $person->telephone }}</td>
                              <td>
-                                 <a href="" class="btn btn-sm btn-success">邀请面试</a>
+                                 <a href="/interview/create/{{ $person->id }}" class="btn btn-sm btn-success">邀请面试</a>
                                  <a href="/person/{{ $person->id }}" class="btn btn-sm btn-info">查看详情</a>
                                  {{--<a href="" class="btn btn-sm btn-danger">遗憾放弃</a>--}}
                                  {{--按钮组--}}
@@ -120,4 +131,12 @@
 
      </div>
  </div>
+
+
+@endsection
+
+@section('script')
+    {{--引入bootstrap-table--}}
+    <script src="{{ asset('js/bootstrap-table.js') }}"></script>
+    <script src="{{ asset('js/bootstrap-table-zh-CN.js') }}"></script>
 @endsection

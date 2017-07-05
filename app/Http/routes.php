@@ -24,5 +24,9 @@ Route::resource('job','JobController');
 
 //对应聘者进行操作
 //Route::resource('interviewee','IntervieweeController');
-Route::get('/interviewee/add/{id}','IntervieweeController@add');
+Route::get('/interviewee/add/{job_id}','IntervieweeController@add');
 Route::resource('person','PersonController');
+
+//邀请面试
+Route::get('/interview/create/{person_id}','InterviewController@add');
+Route::resource('interview','InterviewController');
