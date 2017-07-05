@@ -1,27 +1,12 @@
-# Laravel PHP Framework
+## 一个基于 Laravel 5.2 的招聘管理系统
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+其实我最初学习编程的目的就是想做这样一个小小的招聘管理系统，来减少一些日常工作中重复繁琐的事情。本来以为至少要花上一两年的时间才能完成，没想到半年之后就能做出这样一个小小的demo。
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+我想自己应该是比较幸运的那种人，只要一直坚持着去做，大部分时候都能得到理想的结果。从文科转向编程对一年前的我来说，根本就是不敢想象的事情，但实际上一步一步的自学下来，也并没有外界所说的那么艰难。虽然中间也踩了不少的坑，走了诸多弯路。总的来说，编程学习之路走得比我想象得顺利。
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+这个小项目是我第一次自己独立完成的项目，没有参照任何教程，全部都是靠着阅读文档，一行一行的写下来。遇到bug，有时候也会急得焦头烂额，睡不好觉。但所幸最终还是解决了，也许方法很笨，不够完美。
 
-## Official Documentation
+本来是想靠着它来向上司展示自己的实力，证明文科生也是可以写好代码的。但没想到成了我离职前送给公司的最后的礼物。这份工作虽然不甚喜欢，但它给我提供的很多自由的时间来研究学习自己喜欢的东西。离职以后，我想趁着出国旅游的机会好好休息一下。如果可以的话，最好能悠闲地度过整个暑假（虽然很有可能做不到，呵呵）。
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+最后，happy summer vacation!
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
