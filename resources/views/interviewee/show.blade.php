@@ -47,10 +47,19 @@
                 <td>{{ $interview->where }}</td>
                 <td>{{ $interview->type }}</td>
                 <td>{{ $interview->interviewer }}</td>
-                <td>{{ $interview->result }}</td>
-                <td>{{ $interview->reason }}</td>
+                @if($interview->result == null)
+                    <td>待评价</td>
+                @else
+                    <td>{{ $interview->result }}</td>
+                @endif
+
+                @if($interview->reason == null)
+                    <td>待评价</td>
+                @else
+                    <td>{!! mb_substr($interview->reason,0,20)  !!}......  </td>
+                @endif
                 <td>
-                    <a href="#" class="btn btn-sm btn-success">修改面试评价</a>
+                    <a href="/interview/{{ $interview->id }}/edit" class="btn btn-sm btn-success">修改面试记录</a>
                     <a href="#" class="btn btn-sm btn-info">通知面试结果</a>
                 </td>
             </tr>

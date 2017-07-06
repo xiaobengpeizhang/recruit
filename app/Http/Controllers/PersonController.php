@@ -27,4 +27,10 @@ class PersonController extends Controller
         $person = Person::findOrFail($id);
         return view('interviewee.show',compact('person'));
     }
+
+    //展示全部应聘者列表
+    public function index(){
+        $people = Person::all();
+        return view('interviewee.index',compact('people'));
+    }
 }

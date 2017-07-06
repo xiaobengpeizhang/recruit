@@ -25,4 +25,15 @@ class InterviewController extends Controller
         Interview::create($request->all());
         return redirect('person/'.$request->get('interviewee'));
     }
+
+    //修改面试评价
+    public function edit($id){
+        $interview = Interview::findOrFail($id);
+        return view('interview.edit',compact('interview'));
+    }
+    public function update(Requests\InterviewRequest $request,$id){
+        $interview = Interview::find($id);
+        $interview->update($request->all());
+        return redirect('/person/'.$request->get('interviewee'));
+    }
 }

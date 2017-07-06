@@ -9,12 +9,16 @@
         </h5>
     </div>
 
-        <div class="row clearfix">
+        <div class="row">
             @foreach($jobs as $job)
             <div class="col-md-4 column">
-                <h3>{{ $job->position }}  </h3>
-                <p>所属部门：{{ $job->department }} | 需求人数：{{ $job->number }}</p>
-                {{--<p>学历要求：{{ $job->degree }} | 工作经验：{{ $job->experience }}</p>--}}
+                <h3>{{ $job->position }}
+                    <span style="font-size: small" class="label label-default">{{ $job->department }}</span>
+                </h3>
+                {{--<span class="label label-success">目前共有{{count($job->people)}}位候选人</span>--}}
+                {{--<span class="label label-danger">招聘{{ $job->number }}人</span>--}}
+                <p>需求人数：{{ $job->number }} | 目前共有 {{count($job->people)}} 位候选人</p>
+                {{--<p>目前共有{{count($job->people)}}位候选人</p>--}}
                 <p>{!! mb_substr($job->description,0,40)  !!}...... </p>
                 <p>
                     <a class="btn btn-success" href="/job/{{$job->id}}">查看详情 »</a>
